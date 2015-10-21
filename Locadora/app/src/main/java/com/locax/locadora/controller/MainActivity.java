@@ -27,8 +27,9 @@ public class MainActivity extends ActionBarActivity {
     String cidades;
     ArrayList<Automovel> automoveis;
     //utilizar ip do pc
-    final String servidor = "192.168.0.155:8080";
-    //final String servidor = "10.0.2.2:8080";
+    final String servidor = "10.0.2.2:8080";
+    //ou utilizar ip do pc ex:
+    //final String servidor = "192.168.0.177:8080";
     AutomovelRequester requester;
     ProgressBar mProgress;
     Intent intent;
