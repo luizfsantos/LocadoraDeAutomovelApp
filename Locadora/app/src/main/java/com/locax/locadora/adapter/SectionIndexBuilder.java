@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.TreeSet;
 
-/**
- * Created by Luiz on 13/10/2015.
- */
 public class SectionIndexBuilder {
     //cria um array de cabecalhos unicos de secao; os dados devem estar ordenados por nome
     public static Object[] BuildSectionHeaders(Automovel[] automoveis)

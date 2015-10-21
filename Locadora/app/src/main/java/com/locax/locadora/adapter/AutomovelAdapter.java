@@ -20,9 +20,7 @@ import java.text.NumberFormat;
 import java.util.Hashtable;
 import java.util.Locale;
 
-/**
- * Created by Luiz on 13/10/2015.
- */
+
 public class AutomovelAdapter extends BaseAdapter implements SectionIndexer {
     Activity context;
     Automovel[] automoveis;

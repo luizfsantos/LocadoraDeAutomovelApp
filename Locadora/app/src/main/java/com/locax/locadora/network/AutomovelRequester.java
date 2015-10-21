@@ -23,9 +23,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Luiz on 13/10/2015.
- */
+
 public class AutomovelRequester {
     OkHttpClient client = new OkHttpClient();
 
@@ -34,6 +32,9 @@ public class AutomovelRequester {
         ArrayList<Automovel> lista = new ArrayList<>();
 
         //acentuacao nao funciona se mandar via get, mesmo usando URLEncode.encode(String,UTF-8)
+        if(pCidade.equals("Sâo Paulo")){
+            pCidade = "Sao Paulo";
+        }
         RequestBody formBody = new FormEncodingBuilder()
                 .add("cidade", pCidade)
                 .build();

@@ -3,9 +3,7 @@ package com.locax.locadora.util;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by Luiz on 13/10/2015.
- */
+
 public class ViewHolder {
     private ImageView fotoAutomovel;
     private TextView modeloAutomovel, detalhesAutomovel;

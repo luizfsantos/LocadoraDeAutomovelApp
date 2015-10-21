@@ -2,9 +2,7 @@ package com.locax.locadora.model;
 
 import java.io.Serializable;
 
-/**
- * Created by Luiz on 13/10/2015.
- */
+
 public class Automovel implements Comparable<Automovel>, Serializable {
     private long idAutomovel;
     private String chassi;

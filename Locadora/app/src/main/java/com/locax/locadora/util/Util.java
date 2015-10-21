@@ -7,9 +7,7 @@ import java.lang.reflect.Field;
 
 import com.locax.locadora.R;
 
-/**
- * Created by Luiz on 13/10/2015.
- */
+
 public class Util {
     public static Drawable getDrawable(Activity context, String drawableName){
         //troca hifen por underline, pois hifen e invalido para nome de recursos
